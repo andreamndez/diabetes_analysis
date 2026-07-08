@@ -30,11 +30,11 @@ For variables such as `Insulin`, `Glucose`, and `BMI`, missing values are impute
 
 A **Correlation Matrix (Heatmap)** is used to identify linear relationships and detect multicollinearity.
 
-![Correlation matrix](images/correlation_matrix.png)
+![Correlation matrix](Images/correlation_matrix.png)
 
 Subsequent **boxplot analysis** confirms clear classification signals and validates the median as the most reliable statistic for handling outliers in this dataset.
 
-![Boxplot analysis](images/boxenplots.png)
+![Boxplot analysis](Images/boxenplots.png)
 
 ### Pipelines Architecture
 
@@ -60,11 +60,11 @@ To ensure reproducibility and prevent **data leakage**, the workflow is structur
 
 * **Summary Plots:** Confirm that high `Glucose` values consistently drive diabetes predictions.
 
-![SHAP Summary Plot](images/SHAP_findings.png)
+![SHAP Summary Plot](Images/SHAP_findings.png)
 
 * **Dependence Plots:** Reveal metabolic synergy, where the risk associated with `Glucose` is significantly amplified by elevated `BMI` and `Insulin`.
 
-![Dependence Plots](images/dependence_plot_glucose.png)
+![Dependence Plots](Images/dependence_plot_glucose.png)
 
 ## 🌟 Clinical Insights
 
